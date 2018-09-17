@@ -2,10 +2,6 @@ body{
 	background-color: white;
 }
 
-img {
-	width: 300px;
-}
-
 h1{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	color: black;
@@ -20,8 +16,7 @@ ul {
 }
 
 li {
-	display: inline;
-	float: left;
+	display: inline-block;
 }
 
 li a {
@@ -35,4 +30,9 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
 	background-color: #111;
+}
+
+
+img {
+	width: 300px;
 }
