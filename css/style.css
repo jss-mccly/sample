@@ -19,13 +19,13 @@ h1{
 	float: left;
 }
 
-a {
+.nav a {
 	display: block;
 	padding: 8px;
 	background-color: #444;
 }
 
-li a {
+.nav li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -33,7 +33,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+.nav li a:hover {
 	background-color: #111;
 }
 
