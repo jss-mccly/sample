@@ -11,10 +11,8 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	top: 0;
 	overflow: hidden;
 	background-color: #333;
-	position: fixed;	
 }
 
 li {
@@ -40,8 +38,10 @@ li a:hover {
 }
 
 .active {
-	background-color: maroon
+	background-color: maroon;
+}
 
-img {display: block;
+img {
+	display: block;
 }
 
